@@ -5,6 +5,8 @@
 #   https://github.com/davidwhogg/MagicCube
 
 import numpy as np
+import matplotlib
+matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 from matplotlib import widgets
 from projection import Quaternion, project_points
